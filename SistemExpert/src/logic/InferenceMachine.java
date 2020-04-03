@@ -19,7 +19,7 @@ public class InferenceMachine {
 		return resList;
 	}
 
-	static List<JSONObject> initialList;
+	public static List<JSONObject> initialList;
 	static List<JSONObject> partialList;
 
 	public void initList() throws SQLException, JSONException {

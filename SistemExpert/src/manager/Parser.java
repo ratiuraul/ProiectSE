@@ -11,7 +11,7 @@ public class Parser {
 	public ResultSet getResultSet() throws SQLException {
 
 		DbConnector myConn = new DbConnector();
-		myConn.myRs = myConn.myStatement.executeQuery("select * from chestionar");
+		myConn.myRs = myConn.myStatement.executeQuery("select * from laptops");
 		return myConn.myRs;
 	 }
 

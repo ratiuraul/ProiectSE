@@ -27,7 +27,6 @@ public class Triage {
 			System.out.println(objectValue);
 			if (obj.get(objectKey).equals(objectValue)) {
 				return_list.add(obj);
-				System.out.println("here");
 			}
 		}
 		return return_list;
@@ -51,7 +50,7 @@ public class Triage {
 		InferenceMachine m = new InferenceMachine();
 		m.initList();
 		List<JSONObject> l ;
-		l = sortList(m.initialList, "SISTEM_DE_OPERARE", "linux");
+		l = sortList(m.initialList, "BRAND", "DELL");
 		
 		for (int i = 0; i < l.size(); i++) {
 			System.out.println(l.get(i));

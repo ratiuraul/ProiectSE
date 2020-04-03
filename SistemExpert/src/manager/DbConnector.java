@@ -17,7 +17,7 @@ public class DbConnector {
 		
 		this.myStatement = myConn.createStatement();
 		
-		this.myRs = myStatement.executeQuery("select * from chestionar");
+		this.myRs = myStatement.executeQuery("select * from laptops");
 		
 	}
 
